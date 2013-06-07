@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<link rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="javascript/jquery.js"></script>  
+<script  type="text/javascript" src="javascript/main.js"></script>
+
+<!-- Ajout d'une icone dans l'onglet du navigateur du titre -->
+<link href="image/logo.png" rel="shortcut icon" type="html/image/x-icon" />
+<title>TwittUpmc</title>
+</head>
+
+    <body>
+		
+		<div id="header">
+		<span class="logo"> 
+            <img class="imagelogo" src="image/logo.png" alt="logo" />
+			<h2>Le réseau pour etudiant</h2> 
+           </span>
+			<span class="zone_recherche">
+				<form action="">
+					<TEXTAREA nom="recherche" rows=1 cols=30 onFocus="this.value=''">rechercher</TEXTAREA>
+					<span>
+					<input type="submit" name="recherche" value="lancer" class="button_recherche" /> 
+					</span>
+					<br> Friends<input id="friendOnly" type="checkbox" name="FriendsOnly" />
+				</form>
+			</span> 
+			<span class="lien">
+			
+			</span>
+			
+        </div>
+        
+		<div id="banniere_image">
+        </div>
+           
+		 <section>
+		  
+		  <div id="zone_new">
+		  <form action="">
+				<TEXTAREA nom="commentaire" rows=2 cols=50 onFocus="this.value=''">Exprimez vous...</TEXTAREA>
+				<input type="submit" name="comment" value="envoyer" class="button_new" /> 
+			</form>
+			</div>
+			
+			<div id="listcom">
+			<table class="comm">
+		 	</table>
+			 <h2>Les news</h2>
+			 <table class="commfriend">
+			 
+			 </table>
+             </div>
+			 
+			<div id="zone_static">
+                  <h3>zone static </h3>
+            </div>
+            
+        </section>
+         
+        <footer>
+            <p>Copyright Ahmed - Tous droits réservés<br /><p>
+        </footer>
+         
+    
+ <script type="text/javascript"> 
+ 	$(main);
+ </script>	
+	</body>
+</html>

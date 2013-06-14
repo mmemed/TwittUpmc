@@ -1,0 +1,261 @@
+body
+{
+    background:LightSteelBlue;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+#header{
+position:relative;
+width:auto;
+margin:1px;
+border-left:1px solid; 
+border-right:1px solid ;
+border-bottom:1px solid ;
+border-top:0px;
+background-color:Dimgray;
+}
+.logo {
+  display: inline-block;
+  margin-bottom: 0%;
+}
+.imagelogo {
+width:150px;
+float:left;
+}
+.logo > h2 {
+clear:both;
+font-size:18px;
+font-family:"comic sans Ms";
+}
+
+.zone_recherche{
+
+position:absolute;
+display: inline-block;
+left:40%;
+right:35%;
+top:50%;
+
+}
+
+.button_recherche {
+position:absolute;
+top:-0.15em;
+left:16em;
+display: inline-block;	
+padding:1px 3px;
+border-radius:5px;
+margin: 4px 5px 1px 1px;
+background-color:LightSteelBlue;
+font-family:"Arial";
+
+}.button_recherche:hover {
+	background-color:#87CEFA;
+}
+.zone_recherche TEXTAREA{
+font-family:"Arial";
+font-size:10pt;
+border-radius:5px;
+border:1px;
+}
+
+.lien {
+position:absolute;
+display: inline-block;
+right:2%;
+top:30%;
+}
+.lien img {
+width:30px;
+}
+
+a {
+color:white;
+font-family:"Arial";
+font-size:10pt;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: white;
+  background: LightSteelBlue;
+}  
+ 
+ #banniere_image
+{
+    margin-top: 7px;
+    height: 100px;
+    border-radius: 5px;
+    background: url('image/banniere.png') repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+ 
+#zone_new {
+position: relative;
+top:1em;
+text-align:center;
+}
+
+#zone_new  TEXTAREA{
+border-radius:5px;
+border:1px;
+font-family:"Arial";
+}
+
+ .button_new {
+	position:absolute;
+	top:6px;	
+	background-color:#ffc477;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:20px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:3px 22px;
+	text-decoration:none;
+}.button_new:hover {
+	background-color:#fb9e36;
+}
+
+#listcom {
+position:relative;
+text-align:center;
+top:2em;
+}
+table.comm {
+margin-right:auto; 
+margin-left: auto;
+border-spacing:25px;
+}
+table.comm td:first-child {
+color:gold;
+font-family: Caflisch Script, Adobe Poetica, Sanvito,cursive;
+font-size:25px;
+}
+
+table.comm td:last-child {
+border-radius: 5px;
+padding:10px;
+border: thin solid #20B2AA;
+background-color:#4682B4;
+width: auto;
+}
+
+table.commfriend {
+margin-right:auto; 
+margin-left: auto;
+display:table;
+border-spacing:25px;
+}
+table.commfriend td:first-child {
+color: #336699;
+font-family: Caflisch Script, Adobe Poetica, Sanvito,cursive;
+font-size:25px;
+}
+
+table.commfriend td:last-child {
+border-radius: 5px;
+padding:10px;
+border: thin solid #20B2AA;
+background-color:#4682B4;
+width: auto;
+
+}
+
+.newtab tr {
+	display: table;
+	padding: 5px;
+	width: auto;
+	border-collapse: separate; 
+    border-spacing: 10px;
+}
+
+#zone_static{
+position: absolute;
+background-color:#F8F8FF;
+border:1px;
+border-radius:3px;
+top:220px;
+opacity:0.8;
+left: 9px; 
+width: 15%; /* largeur du menu */
+height: 100%; /* hauteur du menu (toute la page) */
+}
+#zone_static  h3 {
+font-family:"comic sans Ms";
+text-align:center;
+}
+
+footer {
+	text-align:center;
+	position			: fixed;
+	bottom				: 10px;
+	left				: 0;
+	right				: 0;
+	height				: 25px;
+}
+	
+ /* page d user */
+ 
+ /*fond noir*/
+
+#blackscreen{
+background:rgba(0,0,0,0.5);
+height: 100%;
+position: fixed;
+width: 100%;
+z-index: 50;
+}
+/*fenetre*/
+.box_mv {
+position:fixed;
+top:150px;
+margin-left:33%;
+width:33%;
+background:#fff;
+border-radius:4px;
+box-shadow:2px 2px 2px rgba(0,0,0,0.3);
+z-index:100;
+}
+
+/* partie superieure de la fenetre*/
+.top_box {
+width:100%;
+height:20px;
+background:#eee;
+text-align:right;
+border-radius:4px 4px 0 0;
+line-height:20px;
+}
+
+/* lien fermer */
+.close_box {
+font-family:arial;
+font-size:12px;
+text-indent:10px;
+color:#333;
+margin:5px;
+cursor:pointer;
+}
+/* zone contenu de la fenetre*/
+.content_box{
+font-size:14px;
+padding:10px;
+font-family:arial;
+color:#333;
+}
+/*bouton cliquez ici*/
+.btn_box {
+display:inline-block;
+cursor:pointer;
+color:#fff;
+background:#0099cc;
+box-shadow:2px 2px 10px rgba(255,255,255,0.5) inset;
+padding:5px;
+border-radius:4px;
+}
